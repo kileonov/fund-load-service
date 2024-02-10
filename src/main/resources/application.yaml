@@ -1,0 +1,6 @@
+app:
+  fund:
+    load:
+      daily-transactions-limit: 3
+      daily-money-limit: "5000.00"
+      weekly-money-limit: "20000.00"

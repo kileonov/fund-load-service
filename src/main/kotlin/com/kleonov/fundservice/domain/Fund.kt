@@ -1,7 +1,5 @@
 package com.kleonov.fundservice.domain
 
-import com.kleonov.fundservice.model.InvalidDecimalPlacesException
-import com.kleonov.fundservice.model.NonPositiveLoadAmountException
 import java.math.BigDecimal
 import java.time.OffsetDateTime
 
@@ -26,3 +24,6 @@ data class Fund(
         }
     }
 }
+
+class NonPositiveLoadAmountException(msg: String) : RuntimeException(msg)
+class InvalidDecimalPlacesException(msg: String) : RuntimeException(msg)

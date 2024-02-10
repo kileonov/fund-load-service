@@ -27,6 +27,8 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.1")
 	implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.1")
 	implementation("org.flywaydb:flyway-core")
+	implementation("io.arrow-kt:arrow-core:1.2.0")
+	implementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
 
 	implementation("org.jetbrains.exposed:exposed-core:$exposedVersion")
 	implementation("org.jetbrains.exposed:exposed-crypt:$exposedVersion")
